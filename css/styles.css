@@ -727,13 +727,15 @@ justify-content: space-around; */
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: 24px;
     height: 24px;
-    padding: 8px;
     position: absolute;
     right: 24px;
+    font-size: 12px;
 }
 
 .close:is(:hover, :focus) {
     background: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .is-hidden {
