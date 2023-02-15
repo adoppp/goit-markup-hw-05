@@ -747,22 +747,33 @@ justify-content: space-around; */
     border-radius: 50%;
     background: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    width: 24px;
-    height: 24px;
     position: absolute;
     right: 24px;
     font-size: 12px;
-    transition-property: background, color, cursor;
+    transition-property: background, cursor;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 8px;
 }
 
 .close:is(:hover, :focus) {
     background: #404BBF;
-    color: #FFFFFF;
     cursor: pointer;
 }
 
 .is-hidden {
    display: none;
+}
+
+.close-svg {
+    width: 8px;
+    height: 8px;
+    display: block;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close:is(:hover, :focus) .close-svg{
+    fill: #FFFFFF;
 }
