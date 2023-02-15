@@ -57,6 +57,9 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    transition-property: сolor; 
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .links:hover {
@@ -81,6 +84,9 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    transition-property: сolor;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-section-title {
@@ -107,6 +113,9 @@ img {
     margin-top: 48px;
     padding: 16px 32px;
     border-radius: 4px;
+    transition-property: background, cursor;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-studio:hover {
@@ -182,10 +191,9 @@ img {
     margin-right: 24px;
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
-}
-
-button-portfolio:last-child {
-    margin-right: 0;
+    transition-property: сolor, background, cursor;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-portfolio:hover {
@@ -460,7 +468,9 @@ justify-content: space-around; */
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: cursor, box-shadow, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-set-item:is(:hover, :focus) .container-card {
@@ -486,6 +496,9 @@ justify-content: space-around; */
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
     position: relative; 
     background-color: #FFFFFF; 
+    transition-property: border-bottom, border-left, border-right;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .border-bottom-card:is(:hover, :focus) {
@@ -569,6 +582,9 @@ justify-content: space-around; */
     background-color: #4D5AE5;
     border-radius: 50%;
     padding: 12px 12px;
+    transition-property: background;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-item-icon:is(:hover, :focus) {
@@ -611,6 +627,9 @@ justify-content: space-around; */
     margin-right: 24px;
     width: 168px;
     height: 88px;
+    transition-property: filter;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-customer-item:is(:hover, :focus) {
@@ -663,6 +682,9 @@ justify-content: space-around; */
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-property: background;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-soc-footer:hover {
@@ -712,7 +734,7 @@ justify-content: space-around; */
 .modal {
     background: #FCFCFC;
     width: 408px;
-    height: auto;
+    height: 576px;
     margin-left: auto;
     margin-right: auto;
     padding: 24px 24px;
@@ -730,6 +752,9 @@ justify-content: space-around; */
     position: absolute;
     right: 24px;
     font-size: 12px;
+    transition-property: background, color, cursor;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close:is(:hover, :focus) {
